@@ -1,0 +1,19 @@
+name = "Sar"
+uuid = "170d6c53-9879-4b5a-9ca2-4e231295a86d"
+authors = ["Simon Hegelund Olsen <simon.h.olsen@mail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
+Mocking = "78c3b35d-d492-501b-9361-3d52fe80e533"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+TiledIteration = "06e1c1a7-607b-532d-9fad-de7d9aa2abac"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
